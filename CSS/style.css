@@ -1,0 +1,48 @@
+/*index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+/*Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    background: url("https://images.pexels.com/photos/11678873/pexels-photo-11678873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.userBlock {
+    display: flex;
+    flex-direction: column;
+    width:48vw;
+    height: 50vh;
+    border: 1px solid blueviolet;
+    margin: 1vh;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+.redirectToUserButton {
+    height: 10vh;
+
+}
+
+
+
+
+/*.userInfo {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.userElemantsOfList {*/
+/*    display: flex;*/
+/*    flex-direction: ;*/
+/*}*/

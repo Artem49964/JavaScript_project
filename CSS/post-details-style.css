@@ -1,0 +1,39 @@
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.
+Всі елементи котрі характеризують users, posts, comments візуалізувати, так,
+ щоб було видно що це блоки (дати фон. марджини і тд)*/
+
+body {
+    margin: 0;
+    background: url("https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}
+
+.commentLi {
+    width: 15vw;
+    margin-top: 7vh;
+}
+
+.postInfoBlock {
+    margin-top: 2vh;
+    border: 1px solid white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.commentBlock {
+    width: 100vw;
+    height: 70vh;
+    border: 1px solid white;
+    color: white;
+}
+
+.commentList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
